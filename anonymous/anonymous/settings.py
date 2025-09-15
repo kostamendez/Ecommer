@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'anonymous.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE':   'django.db.backends.mysql',
         'NAME':     'asistente',
         'USER':     'root',
         'PASSWORD': 'abcABC123',
         'PORT':     '3306',
-        'HOST':     '127.0.0.1.'
+        'HOST':     '127.0.0.1'
     }
 }
 
